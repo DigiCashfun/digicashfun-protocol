@@ -1,0 +1,92 @@
+[
+  {
+    "name": "ink-950",
+    "hex": "#000d40",
+    "source": "brand/LOGO DIGICASH PNG.png",
+    "x": 0,
+    "y": 0,
+    "note": "opaque logo, dominant field (71.4%)",
+    "method": "k-means centroid snapped to nearest real pixel"
+  },
+  {
+    "name": "ink-900",
+    "hex": "#010b36",
+    "source": "brand/LOGO DIGICASH PNG...png",
+    "x": 968,
+    "y": 432,
+    "note": "transparent logo, dark ring (8.1%)",
+    "method": "k-means centroid snapped to nearest real pixel"
+  },
+  {
+    "name": "blue-800",
+    "hex": "#011a70",
+    "source": "brand/LOGO DIGICASH PNG...png",
+    "x": 632,
+    "y": 592,
+    "note": "transparent logo, outer disc (21.5%)",
+    "method": "k-means centroid snapped to nearest real pixel"
+  },
+  {
+    "name": "blue-700",
+    "hex": "#012da0",
+    "source": "brand/LOGO DIGICASH PNG...png",
+    "x": 1364,
+    "y": 1044,
+    "note": "transparent logo, mid disc (19.7%)",
+    "method": "k-means centroid snapped to nearest real pixel"
+  },
+  {
+    "name": "blue-500",
+    "hex": "#004bd1",
+    "source": "brand/LOGO DIGICASH PNG...png",
+    "x": 736,
+    "y": 872,
+    "note": "transparent logo, inner glow (18.0%)",
+    "method": "k-means centroid snapped to nearest real pixel"
+  },
+  {
+    "name": "cyan",
+    "hex": "#00b4f3",
+    "source": "brand/LOGO DIGICASH PNG...png",
+    "x": 1372,
+    "y": 1384,
+    "note": "transparent logo, grid line (3.8%)",
+    "method": "k-means centroid snapped to nearest real pixel"
+  },
+  {
+    "name": "glow",
+    "hex": "#02e0f9",
+    "source": "reference/SAMPUL DIGICASH JPG.jpg.jpeg",
+    "x": 1014,
+    "y": 428,
+    "note": "banner, horizon grid line",
+    "method": "k-means centroid snapped to nearest real pixel"
+  },
+  {
+    "name": "steel",
+    "hex": "#768ab6",
+    "source": "brand/LOGO DIGICASH PNG...png",
+    "x": 456,
+    "y": 1260,
+    "note": "transparent logo, rim shadow (2.7%)",
+    "method": "k-means centroid snapped to nearest real pixel"
+  },
+  {
+    "name": "chrome-2",
+    "hex": "#becce6",
+    "source": "brand/LOGO DIGICASH PNG...png",
+    "x": 1264,
+    "y": 984,
+    "note": "transparent logo, letter shade (8.8%)",
+    "method": "k-means centroid snapped to nearest real pixel"
+  },
+  {
+    "name": "chrome",
+    "hex": "#ecf0f9",
+    "source": "brand/LOGO DIGICASH PNG...png",
+    "x": 936,
+    "y": 416,
+    "note": "transparent logo, rim light (17.5%)",
+    "method": "k-means centroid snapped to nearest real pixel"
+  }
+]

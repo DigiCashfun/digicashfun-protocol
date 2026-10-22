@@ -1,0 +1,16 @@
+{
+  "name": "digicash",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Digicash site. Static build, output in dist/.",
+  "scripts": {
+    "palette": "node tools/palette.js",
+    "build": "node tools/build.js",
+    "gates": "node tools/gates.js",
+    "serve": "node tools/serve.js"
+  },
+  "devDependencies": {
+    "jpeg-js": "^0.4.4",
+    "pngjs": "^7.0.0"
+  }
+}

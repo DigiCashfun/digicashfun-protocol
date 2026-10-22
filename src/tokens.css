@@ -1,0 +1,16 @@
+/* The only file allowed to hold colour literals.
+   Provenance: src/palette.json. Every value is a real pixel of an asset in brand/ or reference/,
+   found by k-means (centroids snapped to the nearest real pixel; coordinates and source file are in palette.json).
+   Anything translucent is derived with color-mix from these tokens. */
+:root {
+  --ink-950: #000d40;   /* brand/LOGO DIGICASH PNG.png (0,0) */
+  --ink-900: #010b36;   /* brand/LOGO DIGICASH PNG...png (968,432) */
+  --blue-800: #011a70;  /* brand/LOGO DIGICASH PNG...png (632,592) */
+  --blue-700: #012da0;  /* brand/LOGO DIGICASH PNG...png (1364,1044) */
+  --blue-500: #004bd1;  /* brand/LOGO DIGICASH PNG...png (736,872) */
+  --cyan: #00b4f3;      /* brand/LOGO DIGICASH PNG...png (1372,1384) */
+  --glow: #02e0f9;      /* reference/SAMPUL DIGICASH JPG.jpg.jpeg (1014,428) */
+  --steel: #768ab6;     /* brand/LOGO DIGICASH PNG...png (456,1260) */
+  --chrome-2: #becce6;  /* brand/LOGO DIGICASH PNG...png (1264,984) */
+  --chrome: #ecf0f9;    /* brand/LOGO DIGICASH PNG...png (936,416) */
+}

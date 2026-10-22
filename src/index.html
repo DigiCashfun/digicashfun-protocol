@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Digicash | cash for machine minds</title>
+<meta name="description" content="Digicash is a token on Solana made for an era of machine minds. Live market board, a mint slot that stays honest, no noise.">
+<meta property="og:title" content="Digicash">
+<meta property="og:description" content="Cash for an era of machine minds. Built on Solana.">
+<meta property="og:image" content="https://digicash.fun/assets/banner.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<!--@theme-->
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="assets/logo-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..800&family=Michroma&family=VT323&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="Digicash start"><img src="assets/logo-96.png" width="40" height="40" alt="Digicash logo"><span>DIGI<b>CASH</b></span></a>
+    <nav class="socials" aria-label="Social links"><!--@socials--></nav>
+  </div>
+  <div class="wrap"><!--@ca--></div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="mesh layer" data-depth="10" aria-hidden="true"><i></i><i></i><i></i></div>
+  <div class="floor" aria-hidden="true"></div>
+  <div class="wrap hero-inner">
+    <div class="layer" data-depth="-34"><div class="coin-wrap"><img class="coin" src="assets/logo.png" width="280" height="280" alt="Digicash emblem" fetchpriority="high"></div></div>
+    <h1 class="word layer" data-depth="-12">DIGICASH</h1>
+    <p class="tagline">Cash for an era of machine minds, moving at Solana speed.</p>
+    <ul class="chips" aria-label="Project records"><!--@chips--></ul>
+    <div class="hero-cta"><!--@cta--></div>
+  </div>
+</section>
+
+<section class="ticker" aria-label="Live Solana ticker">
+  <div class="ticker-track" id="ticker"><!--@ticker--></div>
+</section>
+
+<section class="wrap statement">
+  <p class="big" data-reveal>Cash is being rewritten by systems that learn. Digicash keeps pace.</p>
+  <span class="stamp" data-reveal>BUILT FOR SPEED</span>
+  <p class="aside" data-reveal>The board below reads order books straight from the source and refreshes while you watch. No opinions attached, only prices.</p>
+  <ul class="tiles" id="tiles">
+    <li class="tile" data-spot data-reveal><div class="k">Names on the board</div><div class="v" id="t-count">&mdash;</div><div class="s">ranked by daily volume</div></li>
+    <li class="tile" data-spot data-reveal><div class="k">Combined volume</div><div class="v" id="t-vol">&mdash;</div><div class="s">trailing 24 hours</div></li>
+    <li class="tile" data-spot data-reveal><div class="k">Combined liquidity</div><div class="v" id="t-liq">&mdash;</div><div class="s">summed over listed pools</div></li>
+    <li class="tile" data-spot data-reveal><div class="k">Strongest mover</div><div class="v" id="t-top">&mdash;</div><div class="s" id="t-top-s">&nbsp;</div></li>
+  </ul>
+</section>
+
+<section class="wrap market" id="market" aria-label="Live market">
+  <div class="sec-head" data-reveal>
+    <h2>Solana board</h2>
+    <div class="pill" id="pill" data-status="sync" role="status"><span class="dot"></span><span id="pill-t">Syncing</span></div>
+    <div class="tabs" role="tablist" aria-label="Sort the board">
+      <button class="tab" role="tab" id="tab-volume" aria-selected="true" data-sort="volume" type="button">Volume</button>
+      <button class="tab" role="tab" id="tab-change" aria-selected="false" data-sort="change" type="button">Movers</button>
+      <button class="tab" role="tab" id="tab-liquidity" aria-selected="false" data-sort="liquidity" type="button">Depth</button>
+    </div>
+  </div>
+  <div class="mkt-panel" data-reveal>
+    <div class="mrow mhead" aria-hidden="true"><span>#</span><span>Name</span><span class="num">Price</span><span class="num">24h</span><span class="num">Volume</span><span class="num">Liquidity</span><span></span></div>
+    <div id="rows"><!--@rows--></div>
+    <div class="mnote" id="mnote" role="alert" hidden></div>
+  </div>
+</section>
+
+<section class="wrap duo" aria-label="Console and address match">
+  <div class="window" data-spot data-reveal>
+    <div class="window-top"><i></i><i></i><i></i><span class="title">feed://console</span></div>
+    <div class="term" id="term" aria-live="off"></div>
+  </div>
+  <div class="window" data-spot data-reveal>
+    <div class="window-top"><i></i><i></i><i></i><span class="title">Address match</span></div>
+    <div class="tool">
+      <h2>Vet an address prior to trusting it</h2>
+      <p class="lead">Drop in an address. It is held against the mint stated at the top of this page.</p>
+      <label for="probe">Address to test</label>
+      <input id="probe" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Enter an address">
+      <div class="out" id="out" aria-live="polite" data-verdict="idle">No input yet.</div>
+      <div class="tool-actions">
+        <button class="btn btn-chrome" id="run" type="button">Match it</button>
+        <button class="btn btn-ghost" id="copy-out" type="button">Copy result</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="how">
+  <div class="wrap">
+    <h2 data-reveal>Getting started in three moves</h2>
+    <ol class="steps">
+      <li data-spot data-reveal><h3>Set up a wallet</h3><p>Pick a wallet app that supports Solana and keep its seed words on paper, away from any screen.</p></li>
+      <li data-spot data-reveal><h3>Load SOL</h3><p>Obtain SOL through a venue you already trust, then move it into the wallet.</p></li>
+      <li data-spot data-reveal><h3>Trade at the stated mint</h3><p>When a mint appears in the slot at the top, enter it into your trading venue and trade SOL against Digicash.</p></li>
+    </ol>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="home">digicash.fun</p>
+    <p>Digicash is a community token with no promised worth. Holders can lose all of it.</p>
+    <p>No part of this page is investment guidance. Board figures come from an independent aggregator and are shown as received. Hold any address against the stated mint prior to moving funds.</p>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script type="application/json" id="register"><!--@register--></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
